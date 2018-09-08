@@ -1,20 +1,20 @@
 {
-  "name": "git-search",
+  "name": "git-find",
   "version": "0.0.0",
   "description": "🔎 find what you are looking for in git",
   "main": "index.js",
   "bin": {
-    "git-search": "git-search.js"
+    "git-find": "git-find.js"
   },
   "scripts": {
     "lint": "standard --verbose",
     "test": "tape test",
     "coverage": "tap test --coverage --coverage-report=lcov",
-    "pack": "pkg bin/git-search.js -c package.json -o packed/git-search"
+    "pack": "pkg bin/git-find.js -c package.json -o packed/git-find"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielcsapo/git-search.git"
+    "url": "git+https://github.com/gabrielcsapo/git-find.git"
   },
   "keywords": [
     "git"
@@ -22,9 +22,9 @@
   "author": "Gabriel Csapo <gabecsapo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielcsapo/git-search/issues"
+    "url": "https://github.com/gabrielcsapo/git-find/issues"
   },
-  "homepage": "https://github.com/gabrielcsapo/git-search#readme",
+  "homepage": "https://github.com/gabrielcsapo/git-find#readme",
   "dependencies": {
     "woof": "^0.3.1"
   },

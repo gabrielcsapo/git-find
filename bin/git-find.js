@@ -6,7 +6,7 @@ const { printOutput, printAuthors, findAuthor, findAuthors, findString } = requi
 
 const cli = woof(`
   Usage
-    $ git-search
+    $ git-find
 
   Options
     --string, -s [<string>]           Finds the given string
